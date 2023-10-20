@@ -1,0 +1,67 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  text-align: center;
+  background: #a9d7e9;
+}
+
+form {
+  width: 50%;
+  border-radius: 10px;
+  background: #f3f3f3;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.form-element {
+  margin: 15px;
+}
+
+.form-element-label {
+  width: 20%;
+  text-align: right;
+  display: inline-block;
+}
+
+.form-element-input {
+  width: 40%;
+  margin-left: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.form-element-input input[type="radio"]:first-of-type {
+  margin-left: 0px;
+}
+
+.form-element-input input,
+.form-element-input select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.biodata-label {
+  vertical-align: top;
+}
+
+.form-element-input textarea {
+  width: 300px;
+}
+
+form-element-submit {
+  background: #7d7dde7;
+  cursor: pointer;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 7px;
+  font-weight: bold;
+}
+
+.form-element-submit:hover {
+  background: #5f5fb6;
+}

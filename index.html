@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <h1>Student registration form</h1>
+
+  <form>
+    <div class="form-element">
+      <label class="form-element-label" for="fname">First name</label>
+      <div class="form-element-input">
+        <input type="text" id="fname" />
+      </div>
+    </div>
+
+    <div class="form-element">
+      <label class="form-element-label" for="lname">Last name</label>
+      <div class="form-element-input">
+        <input type="text" id="lname" />
+      </div>
+    </div>
+
+    <div class="form-element">
+      <label class="form-element-label" for="oschool">Origin school</label>
+      <div class="form-element-input">
+        <select id="oschool">
+          <option>High school</option>
+          <option>Vocational high school</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="form-element">
+      <label class="form-element-label">Operating system</label>
+      <div class="form-element-input">
+        <input type="radio" id="windows" name="os" value="windows">
+        <label for="windows">Windows</label>
+        </input>
+        <input type="radio" id="linux" name="os" value="linux">
+        <label for="linux">Linux</label>
+        </input>
+      </div>
+    </div>
+
+    <div class="form-element">
+      <label for="biodata" class="form-element-label biodata-label">Biodata</label>
+      <div class="form-element-input">
+        <textarea id="biodata" rows="10"></textarea>
+      </div>
+    </div>
+
+    <div class="form-element">
+      <input type="submit" class="form-element-submit" value="Submit">
+    </div>
+
+  </form>
+</body>
+
+</html>
